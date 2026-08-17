@@ -39,7 +39,7 @@ if uploaded_file and api_key:
         with st.spinner("AIが素材・タグ仕様・縫製を多面的に解析中..."):
             try:
                 genai.configure(api_key=api_key)
-                model = genai.GenerativeModel("gemini-1.5-flash")
+                model = genai.GenerativeModel("gemini-2.5-flash")
 
                 prompt = f"""
                 あなたはテキスタイル科学と感覚過敏（触覚過敏）の専門家です。
