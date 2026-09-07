@@ -76,7 +76,3 @@ if uploaded_file and api_key:
                 st.error(f"エラーが発生しました: {e}")
 elif not api_key:
     st.info("👈 左側のサイドバーに先ほどコピーした Gemini API Key を貼り付けてください。")
-
-
-
-
